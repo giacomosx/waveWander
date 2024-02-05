@@ -70,7 +70,8 @@ body {
 }
 
 .section--collapsed {
-    display: none;
+    visibility: hidden;
+    height: 0;
 }
 
 .hideBtn {
