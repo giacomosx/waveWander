@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+
+
+:root {
+    --purple--details: #6D71F9;
+    --white--main: #F9FAFA;
+    --gray--text-body: #676D7C;
+    --black--headline: #272727;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(90deg, #fff 0%, #F9FAFA 5%, #F9FAFA 6%,#F9FAFA 100% );
+}
+
+.text--gray {
+    color: var(--gray--text-body);
+}
+
+.headline--black {
+    color: var(--black--headline);
+}
+
+.bg-color--main-white {
+    background-color: var(--white--main);
+}
+
+.text--main-purple {
+    color: var(--purple--details);
+}
+
+.bg-color--details-purple {
+    background-color: var(--purple--details);
+}
+
+.btn--purple-outline, .btn--purple-fill:hover {
+    border: 1px solid var(--purple--details);
+    background-color: #fff;
+    color: var(--purple--details);
+}
+
+.btn--purple-fill, .btn--purple-outline:hover {
+    background-color: var(--purple--details);
+    color: #fff;
+}
+
+.nav-link {
+    color: var(--gray--text-body)!important;
+}
+
+.sidebar__link:hover {
+    background-color: var(--purple--details);
+    color: #fff!important;
+}
+
+.main-height {
+    height: calc(100vh - 87px);
+}
+
+.active {
+    background-color: var(--purple--details);
+    color: #fff!important;
+}
+
+
+.logo {
+    font-family: 'Comfortaa', sans-serif;
+}
+
+.section--collapsed {
+    display: none;
+}
+
+.hideBtn {
+    align-self: flex-end;
+    margin-bottom: -3rem;
+}
+
+.card--fade-out {
+    opacity: 0;
+    transition: all 0.5s;
+}
