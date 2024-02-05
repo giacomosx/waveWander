@@ -25,6 +25,8 @@ const allCards = document.querySelectorAll('main .card');
 document.getElementById('counter').innerHTML = allCards.length;
 
 document.getElementById('hideAllBtn').addEventListener('click', function(){
+
+    document.getElementById('today').classList.toggle('card--fade-out');
     
     if (this.innerHTML === 'Hide') {
         
